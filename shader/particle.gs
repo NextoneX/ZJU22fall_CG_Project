@@ -2,7 +2,7 @@
 #define g 0.98
 #define last_time 30
 layout (points) in;
-layout (triangle_strip,max_vertices = 40) out;
+layout (triangle_strip,max_vertices = 41) out;
 
 in float r[];
 uniform float t_cur;
